@@ -33,6 +33,7 @@ class Blockchain(object):
         self.chain.append(block)
         return block
 
+
     def new_transaction(self, sender, recipient, amount):
         """
         Creates a new transaction to go into the next mined Block
